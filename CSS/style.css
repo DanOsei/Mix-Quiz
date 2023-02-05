@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(88, 88, 227);
+    font-size: 18px;
+    font-weight: 400; 
+    font-family: 'Crete Round', serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+   
+}
+
+.big-box {
+    max-width: 800px;
+    background-color: rgb(165, 130, 81);
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15%;
+}
+
+.home-box h3{
+    font-size: 20;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.home-box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.home-box p span{
+    font-weight: 500px;
+}
+
+.btn{
+    padding: 15px 45px;
+    background-color: rgb(140, 140, 240) ;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home-box .btn{
+    margin-top: 20px;
+}
