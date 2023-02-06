@@ -23,6 +23,12 @@ body {
     padding: 30px;
     border-radius: 15%;
 }
+.b-box::before,
+.b-box::after{
+    content: '';
+    clear: both;
+    display: table;
+}
 .b-box.hide{
     display: none;
 }
