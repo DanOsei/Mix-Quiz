@@ -16,12 +16,15 @@ body {
    
 }
 
-.big-box {
+.b-box {
     max-width: 800px;
     background-color: rgb(165, 130, 81);
     margin: 40px auto;
     padding: 30px;
     border-radius: 15%;
+}
+.b-box.hide{
+    display: none;
 }
 
 .home-box h3{
@@ -42,19 +45,75 @@ body {
 
 .home-box p span{
     font-weight: 500px;
+    font-size: 25px;
 }
 
 .btn{
     padding: 15px 45px;
-    background-color: rgb(140, 140, 240) ;
+    background-color: #8e8ef0 ;
     color: black;
     border: none;
     border-radius: 10px;
     font-family: 'Crete Round', serif;
     font-size: 16px;
     cursor: pointer;
+    display: inline-block;
 }
 
 .home-box .btn{
     margin-top: 20px;
+}
+/*------ quiz section-------*/
+
+.quiz-b .question-number,
+.quiz-b .question-text,
+.quiz-b .option-container,
+.quiz-b .next-question-btn,
+.quiz-b .answers-indica{
+     width: 100%;
+     float: left;
+}
+
+.quiz-b .question-number{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.quiz-b .question-text{
+    font-size: 22px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 15px 0;
+    margin: 0;
+}
+.quiz-b .option-container .option{
+    background-color: #9f9fc0;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.quiz-b .btn{
+    margin: 20px 0;
+}
+.quiz-b .answers-indica{
+    border-top: 2px solid blue;
+}
+.quiz-b .answers-indica div{
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    background-color: #9f9fc0;
+    border-radius: 30%;
+    margin-right: 3px;
+    margin-top: 15px
 }
