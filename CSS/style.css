@@ -98,7 +98,7 @@ body {
 }
 .quiz-b .option-container .option{
     background-color: #9f9fc0;
-    padding: 15px;
+    padding:13px 15px;
     font-size: 16px;
     line-height: 25px;
     color: #000000;
@@ -109,7 +109,7 @@ body {
 }
 
 .quiz-b .btn{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .quiz-b .answers-indica{
     border-top: 2px solid blue;
@@ -119,9 +119,38 @@ body {
     width: 45px;
     display: inline-block;
     background-color: #9f9fc0;
-    border-radius: 30%;
+    border-radius: 40%;
     margin-right: 3px;
     margin-top: 15px
 }
 
-.res
+.result-box{
+    text-align: center;
+}
+.result-box.hide{
+    display: none;
+}
+
+.result-box h1{
+    font-size: 36pxx;
+    line-height: 42px;
+    color: #000000;
+}
+.result-box table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+.result-box table td{
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+.result-box .btn{
+    margin-right: 20px;
+
+}

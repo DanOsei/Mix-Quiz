@@ -1,0 +1,38 @@
+
+... QUESTION LIST...
+
+Q.1: Which country is the largest producer of cocoa? 
+option 0 :Equador
+option 1 :Ghana
+option 2 :Switzerland
+option 3 :Côte d'Ivoire
+
+By size, what is the smallest country in the world?
+option 0 :Monaco
+option 1 :Vatican City
+option 2 :Malta
+option 3 :Quatar
+
+Which country has a unicorn as its national animal?
+option 0 :Scotland
+option 1 :Finland
+option 2 :Nicaragua
+option 3 :Iceland
+
+which country invented croissant?
+option 0 :China
+option 1 :France
+option 2 :Austrian
+option 3 :Egypt
+
+when did the second world war start?
+option 0 :September 1, 1939
+option 1 :August 31, 1939
+option 2 :September 2, 1945
+option 3 :November 20, 1940
+
+how many different ways are there to cook an egg?
+option 0 :5
+option 1 :48
+option 2 :101
+option 3 :72
