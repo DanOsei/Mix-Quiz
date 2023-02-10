@@ -12,18 +12,36 @@ let availableQuestions = [];
 function setAvailableQuestions(){
   const totalQuestion = quiz.length;
   for(let i=0; i<totalQuestion; i++){
-    availableQuestions.push(quiz[i])
+    availableQuestions.push(quiz[i]);
   }
 }
- // to set question number, question and options // 
+ // set question number, question and options // 
 function getNewQuestion(){
-
+// set question number
     questionNumber.innerHTML = "Question " + (questionCounter + 1 ) + " of " + quiz.length;
-}
+
+    // set question text //
+    //get random question// 
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+    currentQuestion = questionIndex;
+    questionText.innerHTML = currentQuestion.q;
+    console.log(questionIndex);
+
+    questionCounter++;
+  }
+
+  function next(){
+    if(questionCounter === quiz.length){
+      console.log("quiz over");
+    }
+    else{
+      getNewQuestion();
+    }
+  }
 
 window.onload = function(){
-//set all questions in availablequestins area
+//first we will set all questions in availablequestins array
     setAvailableQuestions();
- // call getnewquestion(); function
+ // second we call getnewquestion(); function
     getNewQuestion();
 }
